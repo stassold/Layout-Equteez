@@ -15,6 +15,14 @@ a {
     transition: .4s;
 }
 
+button {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 ul li {
     list-style: none;
 }
@@ -28,6 +36,7 @@ img {
 .container {
     max-width: 1320px;
     margin: 0 auto;
+    height: 100%;
 }
 
 @media (max-width: 1366px) {
